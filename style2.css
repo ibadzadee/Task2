@@ -1,4 +1,6 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* CSS Kodu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -8,6 +10,7 @@
 }
 
 body {
+    background-color: bisque;
     padding: 0 50px;
     display: flex;
     flex-direction: column;
@@ -25,6 +28,8 @@ body {
 .container img.centered-image {
     width: 50%; 
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 hr {
@@ -38,13 +43,13 @@ hr {
     text-align: center;
 }
  
-h3{
+h3 {
     text-align: left !important; 
     margin-left: 20px !important;
-    color: brown ;
-
-}
-.body{
-    background-color: aqua;
+    color: brown;
 }
 
+p {
+    text-align: left !important; 
+    margin-left: 20px !important;
+}
